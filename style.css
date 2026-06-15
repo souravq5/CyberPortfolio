@@ -284,6 +284,7 @@ footer{
     .nav-links{
         display:none;
     }
+}
 /* Cyber Particles */
 
 .particle{
@@ -332,5 +333,4 @@ footer{
 
     text-shadow:
         0 0 10px #00ffff;
-}
 }
