@@ -284,4 +284,53 @@ footer{
     .nav-links{
         display:none;
     }
+/* Cyber Particles */
+
+.particle{
+
+    position: fixed;
+
+    width: 4px;
+
+    height: 4px;
+
+    background: #00ffff;
+
+    border-radius: 50%;
+
+    box-shadow: 0 0 15px #00ffff;
+
+    animation: floatParticle linear infinite;
+
+    pointer-events: none;
+
+    z-index: -1;
+}
+
+@keyframes floatParticle{
+
+    from{
+
+        transform:
+            translateY(0);
+
+        opacity: 1;
+    }
+
+    to{
+
+        transform:
+            translateY(-120vh);
+
+        opacity: 0;
+    }
+}
+
+.active{
+
+    color: #00ffff !important;
+
+    text-shadow:
+        0 0 10px #00ffff;
+}
 }
